@@ -3,6 +3,7 @@ MODEL ="llama3.1:8b"
 
 
 def main(args):
+    return {"body" : "ciao"}
     #get secrets
     host = args.get("OLLAMA_HOST",os.getenv("OLLAMA_HOSTS"))
     auth = args.get("AUTH",os.getenv("AUTH"))

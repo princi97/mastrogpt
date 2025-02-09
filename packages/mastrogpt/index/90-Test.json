@@ -10,6 +10,10 @@
    {
     "name": "Reverse",
     "url": "demo/reverse"
+   },
+   {
+    "name": "Simple",
+    "url": "chat/simple"
    }
 
 ]
